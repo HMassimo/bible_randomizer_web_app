@@ -1,0 +1,16 @@
+{
+  "name": "Bible Verse Generator",
+  "short_name": "Bible Gen",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3498db",
+  "description": "A simple app to get random Bible references.",
+  "icons": [
+    {
+      "src": "https://www.gstatic.com/android/keyboard/emojikit/20181026/u1f4d6/u1f4d6_512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

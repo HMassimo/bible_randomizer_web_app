@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bible Generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="manifest.json" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Bible Reference Generator</h1>
+      <div class="result-box">
+        <p id="resultText">Click a button to begin!</p>
+      </div>
+      <div class="button-container">
+        <button id="chapterBtn">Random Chapter</button>
+        <button id="verseBtn">Random Verse</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("/sw.js").then(function () {
+          console.log("Service Worker Registered");
+        });
+      }
+    </script>
+  </body>
+</html>
